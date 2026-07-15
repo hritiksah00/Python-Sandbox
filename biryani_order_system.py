@@ -5,7 +5,8 @@ biryani_order = {
     "requires_private_cabin": True,
 }
 
-after_discount_price = biryani_order["price"] * 0.9  # Applying a 10% discount
+ # Applying a 10% discount
+after_discount_price = biryani_order["price"] * 0.9 
 
 print(biryani_order)
 print(f"Price after discount: {after_discount_price}")
